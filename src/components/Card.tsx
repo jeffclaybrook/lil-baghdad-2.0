@@ -11,7 +11,7 @@ interface CardProps {
 
 const Card = ({ image, title, description, price, href }: CardProps) => {
  return (
-  <Link href={href} className="flex flex-col gap-4 grow basis-96 lg:max-w-[476px] border border-slate-500 p-4 rounded-xl">
+  <Link href={href} className="flex flex-col gap-4 grow basis-96 lg:max-w-[476px] border border-slate-500 p-4 rounded-xl hover:bg-gray-800 duration-100">
    <div className="flex items-center justify-center rounded-full">
     <Image
      src={image}
